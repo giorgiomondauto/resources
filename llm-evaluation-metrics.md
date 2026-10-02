@@ -42,12 +42,6 @@ Metrics that compare a generated response against a reference answer — useful 
 - **[Semantic Similarity](https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/semantic_similarity/)** — measures semantic overlap between generated and reference text using embeddings, rather than exact wording.
 - **[Traditional metrics: Non-LLM String Similarity, BLEU, CHRF, ROUGE, String Presence, Exact Match](https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/traditional/)** — classic NLP string/n-gram overlap metrics; String Presence checks for expected phrases in the output, Exact Match requires character-for-character correspondence with the reference.
 
-## SQL Metrics
-
-Metrics for evaluating text-to-SQL generation tasks.
-
-- **[Execution-based Datacompy Score, SQL Query Equivalence](https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/sql/)** — Datacompy Score compares the *results* of running the generated SQL query for functional equivalence; SQL Query Equivalence evaluates semantic correctness of the generated query itself, independent of execution.
-
 ## General-Purpose Metrics
 
 Flexible, often LLM-judge-based frameworks for defining custom evaluation criteria when no off-the-shelf metric fits.
